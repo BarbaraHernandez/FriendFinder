@@ -1,0 +1,196 @@
+<!doctype html>
+<html lang=en>
+    <head>
+        <meta charset="UTF-8">
+        <title>Friend Finder - Survey</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+        <script src="https://code.jquery.com/jquery.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+    </head>
+    <body>
+        <div class="container">
+            <h2>Friendship Survey</h2>
+            <hr>
+
+            <h3>About You</h3>
+            <h4>Name (required)</h4>
+
+            <input type="text" id="name" class="form-control" required>
+            <h4>Link to Photo (required)</h4>
+            <input type="text" id="photo" class="form-control" required>
+            <hr>
+
+            <h4>
+                Select your response to each statement where 1 is "No way!" and 5 is "It's me!"
+            </h4>
+            <hr>
+
+            <!-- Q1 -->
+            <h3><strong>Question 1</strong></h3>
+            <h4>I am a dog person.</h4>
+            <div class="input-group mb-3">
+                <select class="custom-select" id="answer01">
+                    <option selected>Select an Option</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                </select>
+            </div>
+            <!-- Q2 -->
+            <h3><strong>Question 2</strong></h3>
+            <h4>Being honest is more important than being polite.</h4>
+            <div class="input-group mb-3">
+                <select class="custom-select" id="answer02">
+                    <option selected>Select an Option</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                </select>
+            </div>
+            <!-- Q3 -->
+            <h3><strong>Question 3</strong></h3>
+            <h4>I always use my turn signal.</h4>
+            <div class="input-group mb-3">
+                <select class="custom-select" id="answer03">
+                    <option selected>Select an Option</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                </select>
+            </div>
+            <!-- Q4 -->
+            <h3><strong>Question 4</strong></h3>
+            <h4>I complain about people who don't use their turn signal.</h4>
+            <div class="input-group mb-3">
+                <select class="custom-select" id="answer04">
+                    <option selected>Select an Option</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                </select>
+            </div>
+            <!-- Q5 -->
+            <h3><strong>Question 5</strong></h3>
+            <h4>I am a cat person.</h4>
+            <div class="input-group mb-3">
+                <select class="custom-select" id="answer05">
+                    <option selected>Select an Option</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                </select>
+            </div>
+            <!-- Q6 -->
+            <h3><strong>Question 6</strong></h3>
+            <h4>I don't show my teeth when I smile.</h4>
+            <div class="input-group mb-3">
+                <select class="custom-select" id="answer06">
+                    <option selected>Select an Option</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                </select>
+            </div>
+            <!-- Q7 -->
+            <h3><strong>Question 7</strong></h3>
+            <h4>I panic when things don't go to plan.</h4>
+            <div class="input-group mb-3">
+                <select class="custom-select" id="answer07">
+                    <option selected>Select an Option</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                </select>
+            </div>
+            <!-- Q8 -->
+            <h3><strong>Question 8</strong></h3>
+            <h4>I enjoy phsycial activities.</h4>
+            <div class="input-group mb-3">
+                <select class="custom-select" id="answer08">
+                    <option selected>Select an Option</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                </select>
+            </div>
+            <!-- Q9 -->
+            <h3><strong>Question 9</strong></h3>
+            <h4>I enjoy parties, even when I don't know most of the other guests.</h4>
+            <div class="input-group mb-3">
+                <select class="custom-select" id="answer09">
+                    <option selected>Select an Option</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                </select>
+            </div>
+            <!-- Q10 -->
+            <h3><strong>Question 10</strong></h3>
+            <h4>I need to see or talk to my friends often.</h4>
+            <div class="input-group mb-3">
+                <select class="custom-select" id="answer10">
+                    <option selected>Select an Option</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                </select>
+            </div>
+            <br>
+            <br>
+            <!-- submit button -->
+            <button type="submit" class="btn btn-primary btn-lg btn-block" id="submit">
+                Submit
+            </button>
+            <hr>
+        </div>
+
+        <!-- Modal -->
+        <div class="modal fade" id="matchModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                <h5 class="modal-title">Your New BFF</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+                </div>
+                <div class="modal-body">
+                    <div id="matchName"></div>
+                    <div id="matchPic"></div>
+                </div>
+                <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+            </div>
+        </div>
+        <footer>
+            <div class="container">
+                <p>
+                    <a href="/api/friends">API Friends List</a> | 
+                    <a href="#">Github Repo</a>
+                </p>
+            </div>
+        </footer>
+    </body>
+</html>

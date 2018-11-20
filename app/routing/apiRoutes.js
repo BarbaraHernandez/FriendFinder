@@ -14,8 +14,14 @@ module.exports = function(app) {
     });
 
     //POST to friends.js
-    app.post("/api/friends", function(req, res) {        
-        friendData.push(req.body);
+    app.post("/api/friends", function(req, res) {    
+        var newFriend = req.body;
+
+        console.log("new: " + newFriend);
+
+        friendData.push(newFriend);
+
+        res.json(newFriend);
     });
 }
 

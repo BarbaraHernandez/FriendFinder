@@ -158,7 +158,7 @@
             <br>
             <br>
             <!-- submit button -->
-            <button type="submit" class="btn btn-primary btn-lg btn-block" id="submit">
+            <button id="submit" type="submit" class="btn btn-primary btn-lg btn-block">
                 Submit
             </button>
             <hr>
@@ -256,8 +256,8 @@ $("#submit").on("click", function(event) {
 
 
     var newFriend = {
-        name: $("#name").val().trim,
-        photo: $("#photo").val().trim,
+        name: $("#name").val(),
+        photo: $("#photo").val(),
         scores: [
             $("#answer01").val(),
             $("#answer02").val(),
@@ -274,7 +274,7 @@ $("#submit").on("click", function(event) {
 
     console.log("new friend: " + newFriend.name);
 
-    $.post("./api/friends", newFriend,
+    $.post("/api/friends", newFriend,
 
         function(data) {
 
